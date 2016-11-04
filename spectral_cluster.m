@@ -32,4 +32,4 @@ for i=1:size(nEigVec,1)
 end
 
 % perform kmeans clustering on the matrix U
-[IDX,C] = kmeans(U,k); 
+[IDX,center] = kmeans(U,k); 
